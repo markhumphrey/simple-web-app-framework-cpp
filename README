@@ -1,0 +1,17 @@
+This project is a continuing personal exercise in exploring web service concepts in C++. 
+
+Initially I wanted to better understand the http protocol and asynchronous I/O and started from this base:
+http://www.boost.org/doc/libs/1_56_0/doc/html/boost_asio/examples/cpp03_examples.html
+
+As I built out the simple http server, I wanted to investigate web service frameworks (and language tradeoffs) started to build out a layer on top of the http server based on:
+http://expressjs.com/
+
+For unit testing I explored a framework which I had not used before: 
+https://code.google.com/p/googletest/
+
+I also tried to incorporate and learn some C++11 concepts along the way.
+
+Directory structure:
+myhttp/ - Implementation of rudimentary http server and web service layer
+myhttp-test/ - Very incomplete project of unit tests for myhttp
+example-middleware/ - One very simple example implemented on top of myhttp 
