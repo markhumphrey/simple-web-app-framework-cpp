@@ -3,6 +3,7 @@
 	<name>myhttp-test</name>
 	<comment></comment>
 	<projects>
+		<project>http-server</project>
 		<project>myhttp</project>
 	</projects>
 	<buildSpec>
@@ -25,11 +26,4 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>gtest</name>
-			<type>2</type>
-			<location>/usr/local/src/gtest-1.7.0/gtest</location>
-		</link>
-	</linkedResources>
 </projectDescription>
